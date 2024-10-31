@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Sign Up Page </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h1> Sign Up Form </h1>
+
+    <fieldset>
+        <legend> Sign Up </legend><br>
+        First Name: <input type="text"><br><br>
+        Last Name: <input type="text"><br><br>
+        Email: <input type="text"><br><br>
+        Phone Number:<input type="text"><br><br>
+        <div id="row">
+            <div>
+            Zip Code: <input id="zipcodeInput" type="text"><br>
+            <span id="checkZip"></span><br><br>
+            </div>
+            <div id="zipInfo">
+            City: <span id= "displayCity"></span> <br>
+            Latitude:<span id= "displayLatitude"></span> <br>
+            Longitude:<span id= "displayLongitude"></span> <br>
+            </div>
+        </div>
+    
+        State: <select id="stateSelect"></select><br><br>
+        Select a County: <select id="county"></select><br><br>
+
+        Desired Username: <input id="usernameInput" type="text"><span id="status"></span><span id="checkUsername"></span><br><br>
+        Password: <input id ="displayPw" type="password"><span id="checkPw"></span><br><br>
+        Type Password Again: <input id="otherPw" type="password"><span id="checkPwMatch"></span><br><br>
+        <input id= "submitBtn" type="submit" value="Sign up!">
+    </fieldset>
+
+    <footer>
+        <p>ALANA HENDEN ||  CST336 LAB3 || OCT 24'</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
